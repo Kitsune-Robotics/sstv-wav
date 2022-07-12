@@ -1,0 +1,30 @@
+{
+    "name": "SSTV-WAV",
+    "version": "0.9.0",
+    "description": "A simple SSTV library that uses the VS1003 encoder chip to generate SSTV signals and images.",
+    "keywords": "sstv, ham-radio, arduino, PD90",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kitsune-Robotics/sstv-wav.git"
+    },
+    "authors": [
+        {
+            "name": "Chris Baird",
+            "email": "vk2cjb@gmail.com",
+            "url": "https://notabug.org/vk2cjb"
+        },
+        {
+            "name": "Joe Sedutto",
+            "email": "kenwood364@gmail.com",
+            "url": "https://kitsunehosting.net/",
+            "maintainer": true
+        }
+    ],
+    "license": "GPL-2.0",
+    "homepage": "https://github.com/Kitsune-Robotics/sstv-wav",
+    "dependencies": {
+        "VS1003": "~0.9.1"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+}
